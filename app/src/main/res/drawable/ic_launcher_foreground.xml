@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer rounded square with neon stroke -->
+    <path
+        android:pathData="M 30 20 h 48 c 8.836 0 16 7.163 16 16 v 48 c 0 8.837 -7.164 16 -16 16 h -48 c -8.836 0 -16 -7.163 -16 -16 v -48 c 0 -8.837 7.164 -16 16 -16 z"
+        android:fillColor="#00000000"
+        android:strokeColor="#88AA00FF"
+        android:strokeWidth="1"/>
+
+    <!-- Filled rounded square gradient -->
+    <path
+        android:pathData="M 30 20 h 48 c 8.836 0 16 7.163 16 16 v 48 c 0 8.837 -7.164 16 -16 16 h -48 c -8.836 0 -16 -7.163 -16 -16 v -48 c 0 -8.837 7.164 -16 16 -16 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="20"
+                android:endX="88"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0" android:color="#77B000FF" />
+                <item android:offset="1" android:color="#990055FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Music note -->
+    <group
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:translateX="24"
+        android:translateY="24">
+        <!-- Slight shadow for 3D feel -->
+        <path
+            android:fillColor="#44000000"
+            android:pathData="M12.5 3.5v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7.5h4V3.5h-6z" />
+        <!-- Actual note -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" />
+    </group>
+</vector>
