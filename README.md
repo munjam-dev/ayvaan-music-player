@@ -1,6 +1,7 @@
 # 🎵 Ayvaaan — Flagship Offline Music Player
 
 Ayvaaan is a modern, high-performance, and privacy-focused flagship offline music player for Android, built 100% with Kotlin, Jetpack Compose, and Material Design 3. Engineered for audiophiles who demand both absolute privacy and an immersive, pixel-perfect visual experience, Ayvaaan features deep device integration, local audio indexing, a zero-override queue system, a stunning dynamic visual interface, and custom poster-based artwork mapping.
+<img width="941" height="1672" alt="ChatGPT Image Jun 3, 2026, 03_55_11 PM" src="https://github.com/user-attachments/assets/038d3827-3caf-4507-9366-eb9113f83626" />
 
 ---
 
