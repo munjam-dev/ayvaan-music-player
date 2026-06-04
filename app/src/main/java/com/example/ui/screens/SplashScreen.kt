@@ -97,7 +97,7 @@ fun SplashScreen(onSplashFinished: () -> Unit) {
 
             // Brand Header with glorious neon shadows
             Text(
-                text = "Ayvaan",
+                text = "Ayvaaan",
                 fontSize = 42.sp,
                 fontWeight = FontWeight.Black,
                 letterSpacing = 8.sp,

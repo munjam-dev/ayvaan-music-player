@@ -83,7 +83,7 @@ class MusicService : Service() {
 
         val notification = NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_ayvan_notification)
-            .setContentTitle("Ayvaan Premium Audio")
+            .setContentTitle("Ayvaaan Premium Audio")
             .setContentText("Music engine active")
             .setContentIntent(openAppPendingIntent)
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
@@ -140,8 +140,8 @@ class MusicService : Service() {
 
     private fun createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val name = "Ayvaan Premium Audio Playback"
-            val descriptionText = "Displays audio playback controls for the Ayvaan music engine."
+            val name = "Ayvaaan Premium Audio Playback"
+            val descriptionText = "Displays audio playback controls for the Ayvaaan music engine."
             val importance = NotificationManager.IMPORTANCE_LOW
             val channel = NotificationChannel(CHANNEL_ID, name, importance).apply {
                 description = descriptionText

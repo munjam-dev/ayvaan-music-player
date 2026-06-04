@@ -1089,7 +1089,7 @@ fun SettingsScreen(
                     Icon(imageVector = Icons.Outlined.Info, contentDescription = "About", tint = CyberViolet, modifier = Modifier.size(20.dp))
                     Spacer(modifier = Modifier.width(12.dp))
                     Column {
-                        Text("About Ayvaan Deck Hardware", color = TextLight, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+                        Text("About Ayvaaan Deck Hardware", color = TextLight, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
                         Text("Real-time telemetry information parameters", color = TextDim, fontSize = 11.sp)
                     }
                 }
@@ -1221,11 +1221,11 @@ fun SettingsScreen(
                     Text(
                         text = "Last updated: June 2026\n\n" +
                                "1. Offline Privacy & Policy Statement\n" +
-                               "Ayvaan is built by Arlo Labs Co. © 2026 as a 100% offline-first music player. We value your privacy above everything else. Contact us at arlo.myn@proton.me if you have questions.\n\n" +
+                               "Ayvaaan is built by Arlo Labs Co. © 2026 as a 100% offline-first music player. We value your privacy above everything else. Contact us at arlo.myn@proton.me if you have questions.\n\n" +
                                "2. Zero Data Collection Mandate\n" +
-                               "Ayvaan does NOT collect, sell, or share user data. We do not track user activity across other apps, compile listening profiles, or share credentials with advertisers. Your usage remains fully secure on your device.\n\n" +
+                               "Ayvaaan does NOT collect, sell, or share user data. We do not track user activity across other apps, compile listening profiles, or share credentials with advertisers. Your usage remains fully secure on your device.\n\n" +
                                "3. Storage Permissions & Data Access\n" +
-                               "Ayvaan requests storage permissions (READ_MEDIA_AUDIO on Android 13+ or READ_EXTERNAL_STORAGE on earlier versions) solely to scan, index, and query your offline music files (.mp3, .wav, .flac, etc.). Ayvaan can read music metadata and cache album artwork only to power the Core Music Player functionality.\n\n" +
+                               "Ayvaaan requests storage permissions (READ_MEDIA_AUDIO on Android 13+ or READ_EXTERNAL_STORAGE on earlier versions) solely to scan, index, and query your offline music files (.mp3, .wav, .flac, etc.). Ayvaaan can read music metadata and cache album artwork only to power the Core Music Player functionality.\n\n" +
                                "4. Full User Control\n" +
                                "You possess complete mastery over your data. You can delete playlists, permanently delete songs from the library files, delete custom artwork caches, and clear all local databases. Data remains on your device and is kept only until deleted by the user.\n\n" +
                                "5. Local Security\n" +
@@ -1259,13 +1259,13 @@ fun SettingsScreen(
                     Text(
                         text = "Last updated: June 2026\n\n" +
                                "1. Limited License Grant\n" +
-                               "Arlo Labs Co. grants you a limited, non-transferable, revocable license to utilize the Ayvaan application solely for personal, non-commercial offline playback of audio media files organized on your compatible device.\n\n" +
+                               "Arlo Labs Co. grants you a limited, non-transferable, revocable license to utilize the Ayvaaan application solely for personal, non-commercial offline playback of audio media files organized on your compatible device.\n\n" +
                                "2. Usage Restrictions\n" +
                                "You agree not to: (a) reverse engineer, decompile, or modify any protected components of this application, (b) copy or redistribute the application, or (c) bypass security elements built into the software deck.\n\n" +
                                "3. Copyright & Music Ownership\n" +
-                               "Ayvaan does NOT provide or host copyrighted music. All music files, metadata, and licensing are the sole property of their respective creators and owners. Ayvaan only indexes and plays local files stored on the user's device. The user assumes full responsibility for all audio indexed.\n\n" +
+                               "Ayvaaan does NOT provide or host copyrighted music. All music files, metadata, and licensing are the sole property of their respective creators and owners. Ayvaaan only indexes and plays local files stored on the user's device. The user assumes full responsibility for all audio indexed.\n\n" +
                                "4. Intellectual Property\n" +
-                               "All trademarks, logos, branding (including the Ayvaan logo design), and source code are the exclusive intellectual property of Arlo Labs Co. No ownership is transferred under this license.\n\n" +
+                               "All trademarks, logos, branding (including the Ayvaaan logo design), and source code are the exclusive intellectual property of Arlo Labs Co. No ownership is transferred under this license.\n\n" +
                                "5. Disclaimer & Limitation of Liability\n" +
                                "The application is provided \"As Is\" without warranties of any kind. To the maximum extent permitted by governing laws, Arlo Labs Co. is not liable for device issues, storage corrupted tags, battery wear, or system malfunctions resulting from playback.\n\n" +
                                "6. Termination & Governing Law\n" +
@@ -1305,7 +1305,7 @@ fun SettingsScreen(
             containerColor = CardGrey,
             shape = RoundedCornerShape(24.dp),
             title = {
-                Text("About Ayvaan", color = TextLight, fontWeight = FontWeight.Black)
+                Text("About Ayvaaan", color = TextLight, fontWeight = FontWeight.Black)
             },
             text = {
                 Column(
@@ -1314,7 +1314,7 @@ fun SettingsScreen(
                 ) {
                     AyvanLogo(modifier = Modifier.size(64.dp))
                     Spacer(modifier = Modifier.height(16.dp))
-                    Text("Ayvaan Player", color = TextLight, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                    Text("Ayvaaan Player", color = TextLight, fontSize = 20.sp, fontWeight = FontWeight.Bold)
                     Text("♥ Developed by Munjam Dev.", color = CyberCyan, fontSize = 13.sp, fontWeight = FontWeight.Medium)
                     Spacer(modifier = Modifier.height(12.dp))
                     Text("Arlo Labs Co. © 2026.", color = TextDim, fontSize = 11.sp, fontWeight = FontWeight.SemiBold)

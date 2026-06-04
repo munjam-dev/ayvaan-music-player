@@ -973,7 +973,7 @@ fun NowPlayingOptionsDialog(
         AlertDialog(
             onDismissRequest = { showRingtonePermissionDialog = false },
             title = { Text("Write Settings Permission", color = TextLight, fontWeight = FontWeight.Bold) },
-            text = { Text("Ayvaan needs permission to modify system settings to update your primary device ringtone.\n\nPress 'Grant' below to authorize.", color = TextDim) },
+            text = { Text("Ayvaaan needs permission to modify system settings to update your primary device ringtone.\n\nPress 'Grant' below to authorize.", color = TextDim) },
             confirmButton = {
                 TextButton(onClick = {
                     showRingtonePermissionDialog = false

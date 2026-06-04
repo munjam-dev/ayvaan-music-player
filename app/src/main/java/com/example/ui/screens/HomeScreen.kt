@@ -137,13 +137,13 @@ fun HomeScreen(
                         ) {
                             androidx.compose.foundation.Image(
                                 painter = androidx.compose.ui.res.painterResource(id = com.example.R.drawable.ic_ayvan_logo),
-                                contentDescription = "Ayvaan Logo",
+                                contentDescription = "Ayvaaan Logo",
                                 modifier = Modifier.size(38.dp) // 32dp-40dp requested
                             )
                             Spacer(modifier = Modifier.width(12.dp))
                             Column {
                                 Text(
-                                    text = "Ayvaan",
+                                    text = "Ayvaaan",
                                     fontSize = 22.sp,
                                     fontWeight = FontWeight.Black,
                                     color = TextLight,

@@ -97,7 +97,7 @@ fun PermissionScreen(onPermissionGranted: (Boolean) -> Unit) {
             Spacer(modifier = Modifier.height(12.dp))
 
             Text(
-                text = "Ayvaan requires permission to scan your device for offline audio tracks (MP3, WAV, FLAC, AAC, M4A) and map your library.",
+                text = "Ayvaaan requires permission to scan your device for offline audio tracks (MP3, WAV, FLAC, AAC, M4A) and map your library.",
                 fontSize = 15.sp,
                 fontWeight = FontWeight.Normal,
                 color = TextDim,
